@@ -1,0 +1,324 @@
+/* overrides for everthing*/
+* {
+	margin: 0px;
+	padding: 0px;
+	/*    list-style: none;*/
+
+}
+
+/*
+    top of page before nav
+    pagetop = div 
+    pagetop1 = h1
+    pagetop2 = h2
+*/
+.pagetop {
+	padding-top: 30px;
+	border-top-style: solid;
+/*	border-top-style: red;*/
+	/*    border-top: 8px;*/
+	padding-bottom: 5px;
+}
+
+.pagetop1,
+.pagetop2 {
+
+	text-align: center;
+	font-size: 55px;
+	background-color: black;
+	background-color: transparent;
+	font-family: fantasy;
+}
+
+/*top navbar*/
+#topnav {
+	background-color: black;
+	/*	background-color: transparent;*/
+	height: 100%;
+	width: 100%;
+	padding: 4px;
+	margin-top: 5px;
+}
+
+#topnav :hover {
+	background-color: black;
+}
+
+#topnav ul {
+	/* ask why bullet points dont show with html even without this*/
+	list-style: none;
+}
+
+/*listed items top nav*/
+#topnav ul li {
+	display: inline-block;
+	line-height: 100px;
+}
+
+/*anchors*/
+a {
+	/*gets rid of underline*/
+	text-decoration: none;
+
+}
+
+#topnav ul li:hover {
+	background-color: red;
+}
+
+#topnav ul li a {
+	font-family: monospace;
+	color: red;
+/*	    color:black;*/
+	padding: 0px 20px;
+	display: block;
+	font-size: 19px;
+	font-family: fantasy;
+}
+
+#topnav ul li a:hover {
+	color: white;
+}
+
+.home {
+	position: relative;
+	width: 70%;
+	margin: 0 auto;
+
+
+}
+
+.home img {
+	width: 100%;
+	height: 400px;
+}
+
+#wordsontulips {
+
+	color: yellow;
+	position: absolute;
+	bottom: 70.5%;
+	width: 100%;
+	text-align: center;
+/*	font-size: 1.5rem;*/
+	font-size: 25px;
+	/*    border-color:forestgreen;*/
+	font-family: monospace;
+	text-shadow: 10px 10px 15px #000000;
+}
+
+
+/*about section */
+/*div= #about , h2 = #about h2 or .abouth2 , p= aboutp or .aboutp */
+#about {
+	margin: 10px;
+	padding: 20px 0px;
+	/*code repeat from image*/
+	position: relative;
+	width: 70%;
+	margin: 0 auto;
+}
+
+#about h2 {
+	color: darkgreen;
+	margin-bottom: 11px;
+	margin-top: 8px;
+	font-family: sans-serif;
+	font-size: 23px;
+	/*     text-align: center;*/
+}
+
+#about p {
+	text-align: center;
+	outline-style: inset;
+	padding: 15px;
+	font-size: 19px;
+	font-weight: bold;
+	font-family: fantasy;
+	color: orangered;
+	background-color: azure;
+	box-shadow: 2px 4px;
+}
+
+.skillsunit {
+	margin: 20px 0px;
+	border-top-style: double;
+	border-bottom-style: solid;
+	padding: 20px 0px;
+}
+
+/*ask how to get spacing between words*/
+#swithsec1 {
+	background-color: aqua;
+	text-align: center;
+	will-change: opacity;
+}
+
+/*these are skills headers*/
+.swh3had,
+.swh3gain {
+	font-size: 25px;
+}
+
+
+.swlisthad {
+	margin: 4px 0px;
+	list-style: none;
+	font-size: 20px;
+	padding: 20px;
+}
+
+#swithsec2 {
+	background-color: aquamarine;
+	text-align: center;
+	padding: 10px;
+	align-content: center;
+}
+
+.swlistgain {
+
+	margin: 4px 0px;
+	list-style: none;
+	font-size: 20px;
+	padding: 20px;
+}
+
+/*quote section*/
+
+.quote {
+	padding-top:20px;
+	width: 400px;
+	margin: auto;
+	text-align: center;
+	font-family: cursive;
+	font-size: 25px;
+	padding-bottom: 10px 0;
+
+}
+
+#forq {
+	font-family: fantasy;
+	font-size: 30px;
+	color: red;
+	padding: 10px 0;
+	background-color: black;
+}
+
+.action {
+	font-family: fantasy;
+	padding-top: 40px;
+}
+
+
+#bottomnav{
+
+/*	display: inline-block;*/
+	
+	margin: 0 auto;
+	
+}
+
+/*section between quote and call to action*/
+
+#faarrows{
+	
+	padding-top:35px;
+	
+}
+
+/*
+p i .fas fa-angle-double-down{
+	
+	width:30px;
+}
+*/
+
+/*
+#ending{
+	background-color: red;
+	
+}
+*/
+
+/*color cascaded to font awesome icons*/
+span {
+
+	color: red;
+}
+
+#codeicon{
+	text-align:center;
+}
+
+button {
+	margin: auto;
+	color: darkturquoise;
+	cursor: pointer;
+	border-radius: 50%;
+	padding: 15px;
+	border-radius: 6px;
+	font-weight: bold;
+	background-color: transparent;
+
+}
+
+button:hover {
+	background-color: darkturquoise;
+	color: black;
+}
+
+
+/*section before footer*/
+
+.smfooter{
+	
+	margin: auto 0;
+	padding-bottom: 15px;
+}
+
+.h1sm_footer{
+	text-align: center;
+	margin-top:15px;
+	margin-bottom:15px;
+	
+}
+
+
+#bottomnav{
+	margin:auto 0;
+}
+
+.falist{
+	text-align: center;
+	width:100%;
+	margin:0 auto;
+}
+
+.falist li{
+	display: inline-block;
+}
+
+/*footer*/
+
+footer {
+	background-color: black;
+	min-height: 100px;
+	/*    margin-top: 10px;*/
+	padding: 5px;
+	margin-bottom: 5px;
+}
+
+footer p {
+	color: red;
+	padding-top: 40px;
+	text-align: center;
+	font-size:18px;
+	font-family: fantasy;
+}
+
+
+/*contact page*/
+
+.contact body {
+	background-color: lightgray;
+}
