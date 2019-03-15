@@ -15,7 +15,7 @@
 .pagetop {
 	padding-top: 30px;
 	border-top-style: solid;
-/*	border-top-style: red;*/
+	/*	border-top-style: red;*/
 	/*    border-top: 8px;*/
 	padding-bottom: 5px;
 }
@@ -69,7 +69,7 @@ a {
 #topnav ul li a {
 	font-family: monospace;
 	color: red;
-/*	    color:black;*/
+	/*	    color:black;*/
 	padding: 0px 20px;
 	display: block;
 	font-size: 19px;
@@ -100,8 +100,8 @@ a {
 	bottom: 70.5%;
 	width: 100%;
 	text-align: center;
-/*	font-size: 1.5rem;*/
-	font-size: 25px;
+	/*	font-size: 1.5rem;*/
+	font-size: 28px;
 	/*    border-color:forestgreen;*/
 	font-family: monospace;
 	text-shadow: 10px 10px 15px #000000;
@@ -166,6 +166,8 @@ a {
 	list-style: none;
 	font-size: 20px;
 	padding: 20px;
+	
+
 }
 
 #swithsec2 {
@@ -186,7 +188,7 @@ a {
 /*quote section*/
 
 .quote {
-	padding-top:20px;
+	padding-top: 20px;
 	width: 400px;
 	margin: auto;
 	text-align: center;
@@ -210,20 +212,20 @@ a {
 }
 
 
-#bottomnav{
+#bottomnav {
 
-/*	display: inline-block;*/
-	
+	/*	display: inline-block;*/
+
 	margin: 0 auto;
-	
+
 }
 
 /*section between quote and call to action*/
 
-#faarrows{
-	
-	padding-top:35px;
-	
+#faarrows {
+
+	padding-top: 35px;
+
 }
 
 /*
@@ -246,8 +248,8 @@ span {
 	color: red;
 }
 
-#codeicon{
-	text-align:center;
+#codeicon {
+	text-align: center;
 }
 
 button {
@@ -270,31 +272,36 @@ button:hover {
 
 /*section before footer*/
 
-.smfooter{
-	
+.smfooter {
+
 	margin: auto 0;
 	padding-bottom: 15px;
+
 }
 
-.h1sm_footer{
+.h1sm_footer {
 	text-align: center;
-	margin-top:15px;
-	margin-bottom:15px;
-	
+	margin-top: 15px;
+	margin-bottom: 15px;
+	padding-bottom: 8px;
+	padding-top: 15px;
+	font-size: 19px;
+
 }
 
 
-#bottomnav{
-	margin:auto 0;
+#bottomnav {
+	margin: auto 0;
+	padding-bottom: 4px;
 }
 
-.falist{
+.falist {
 	text-align: center;
-	width:100%;
-	margin:0 auto;
+	width: 100%;
+	margin: 0 auto;
 }
 
-.falist li{
+.falist li {
 	display: inline-block;
 }
 
@@ -312,13 +319,86 @@ footer p {
 	color: red;
 	padding-top: 40px;
 	text-align: center;
-	font-size:18px;
+	font-size: 18px;
 	font-family: fantasy;
 }
 
 
 /*contact page*/
 
-.contact body {
+
+.h1contact {
+	text-align: center;
+	font-size: 50px;
+	padding-top: 70px;
+	padding-bottom: 30px
+}
+
+
+
+/*form*/
+
+
+.h3form {
+	text-align: center;
+	font-family: cursive;
+	padding-bottom: 25px;
+	font-size: 25px;
+}
+
+
+.h3inform1,
+.h3inform2 {
+	text-align: center;
+	font-size: 19px;
+}
+
+
+.h3inform1 {
+	padding-top: 30px;
+}
+
+form {
+
+	/*
+	width:500px;
+	margin:80px ;
+*/
+
+	background-color: red;
+	/*	width: 100%;*/
+	margin: 20px auto;
+	width: 600px;
+
+	padding: 30px;
+
+}
+
+
+input {
+	padding: 10px;
+	font-size: inherit;
+}
+
+input[type="text"],
+[type="email"] {
+	display: block;
+	margin-bottom: 20px;
+	/*expands to form*/
+	width: 100%;
+	border: 2px solid lightgrey;
+	/*	border-top-color: mediumpurple;*/
+}
+
+textarea {
+	/*	padding:0 40px;*/
+	font-size: inherit;
+	display: block;
 	background-color: lightgray;
+}
+
+
+button {
+	margin-top: 9px;
+	display: block;
 }
